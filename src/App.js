@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
-const Nav = () => 
-(<nav>
-  <a className="left" href="#construction">Acme Construction</a>
-  <a className="right" href="#social">Social</a>
-  <a className="right" href="#contact">Contact</a>
-</nav>)
+import Nav from './Nav';
 
 class App extends Component {
   render() {
@@ -31,7 +25,7 @@ class App extends Component {
             <div classNam="col-sm-12 col-lg-4">
               <div className="card">
                 <div className="top"><h2>Nunc</h2></div>
-                <div className="bottom"><img className="picture" src="./images/sparks.jpg" /></div>
+                <div className="bottom"><img className="picture construction" src="./images/sparks.jpg" /></div>
               </div>
             </div>
           </div>
